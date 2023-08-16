@@ -1,0 +1,22 @@
+body{
+    background-color:#333 ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+h1{
+    color: rgb(243, 113, 113);
+    background-color: white;
+}
+h3{
+    color: rgb(236, 91, 91);
+    
+}
+article{
+    color: white;
+}
+h2{
+    color: rgb(236, 91, 91);
+}
+a{
+    color: white;
+}
