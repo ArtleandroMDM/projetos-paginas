@@ -6,14 +6,15 @@ body {
     align-items: center;
     min-height: 100vh;
     margin: 0;
-    background-color:#333;
+    background: rgb(63,67,68);
+background: linear-gradient(45deg, rgba(63,67,68,1) 16%, rgba(102,138,172,1) 50%, rgba(63,67,68,1) 88%);
 }
 
 .calculator {
     background-color: rgb(87, 87, 157);
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 20px;
+    box-shadow: 0 2px 4px rgba(62, 62, 62, 0.1);
+    padding: 33px;
     width: 300px;
 }
 
@@ -21,7 +22,7 @@ body {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
-    font-size: 18px;
+    font-size: 18px; 
     border: 1px solid #ccc;
     border-radius: 4px;
 }

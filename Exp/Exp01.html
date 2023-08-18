@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>At 04</title>
+    <link rel="stylesheet" href="Exp01.css">
+</head>
+<body>
+    <input id="Novoinput" type="text" onfocus="mudarBackground()" onblur="validateAndChangeBackground()">
+    <script>
+        function mudarBackground(){
+            document.getElementById('Novoinput').style.backgroundColor = "yellow";
+        }
+        function validateAndChangeBackground(){
+            var inputValue = document.getElementById("Novoinput").value;
+            if (inputValue.length === 0){
+                document.getElementById("Novoinput").style.backgroundColor = "white"
+            }else if (inputValue.length < 3){
+                document.getElementById("Novoinput").style.backgroundColor = "red"
+            } else{
+                document.getElementById("Novoinput").style.backgroundColor = "green"
+            }
+        }
+
+        document.getElementById("Novoinput").addEventListener("input", function(){
+            if(this.value.length === 0){
+                this.style.backgroundColor = "white";
+            }
+        });
+    </script>
+</body>
+</html>
