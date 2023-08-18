@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      var idade = prompt("Sua idade: ");
+      if (idade < 15) {
+        document.write("criança");
+      } else if (idade >= 15 && idade < 25) {
+        document.write("jovem");
+      } else if (idade >= 25 && idade < 59) {
+        document.write("adulto");
+      } else if (idade >= 60) {
+        document.write("idoso");
+      }     
+    </script>
+    <article>
+        <label>Sexo:</label>
+        <input type="radio" id="sexo-m" name="sexo" value="Masculino">
+        <label for="sexo-m">Masculino</label><br>
+        <input type="radio" id="sexo-f" name="sexo" value="Feminino">
+        <label for="sexo-f">Feminio</label>
+    </article>
+  </body>
+</html>
