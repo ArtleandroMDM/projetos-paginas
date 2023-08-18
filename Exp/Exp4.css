@@ -1,0 +1,21 @@
+body{
+    background: whitesmoke;
+}
+
+.estilo1{
+    background: blue;
+    color: #ffffff;
+    border: solid spx black;
+    width: 250px;
+    height: 300px;
+    margin: auto;
+}
+
+.estilo2{
+    background: gray;
+    color: white;
+    border: solid spx black;
+    width: 300px;
+    height: 250px;
+    margin: auto;
+}
