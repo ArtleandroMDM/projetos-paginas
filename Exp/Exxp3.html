@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Array multidimensional</h1>
+    <script>
+        let listaHerois = Array('Batman,SuperMan,Mulher Maravilha,')
+
+        listaHerois['Batman'] = Array('adam west', 'michael keaton', 'christian bale', 'ben Affleck', 'robert','pattinson')
+        listaHerois['Superman'] = ['Christopher Reeve', 'Dean Cain','tom welling','brandon routh','henry cavill' ]
+        listaHerois['Mulher Maravilha'] = ['Gal Gadot', 'Megan Gale','Lynda Carter','cathy lee crosby']
+
+        document.write(listaHerois['batman'])
+        document.write('<br>')
+        document.write('<br>')
+        document.write(listaHerois['Superman'])
+        document.write('<br>')
+        document.write('<br>')
+        document.write(listaHerois['Mulher Maravilha'])
+        console.log(listaHerois)
+        document.write('<br>')
+        document.write('<br>')
+        document.write(listaHerois['Mulher Maravilha'][0])
+     </script>
+</body>
+</html>
