@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array ordenaçao</title>
+</head>
+<body>
+    <h1>
+        Array ordenaçao
+    </h1>
+    <script>
+        let listaNomes = Array('joão','Maria','Ana','Bernado')
+        document.write(listaNomes)
+        document.write('<hr>')
+        document.write(listaNomes.sort())
+        document.write('<hr>')
+
+        let listaNotas = Array(12, 40, 3, 7, 19, 1)
+        document.write(listaNotas)
+        document.write('<hr>')
+        document.write(listaNotas.sort())
+
+        function ordenarNumeros(a,b){
+            return a - b
+        }
+        document.write('<hr>')
+        document.write(listaNotas.sort(ordenarNumeros))
+    </script>
+</body>
+</html>
