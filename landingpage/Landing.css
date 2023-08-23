@@ -1,19 +1,29 @@
-body{
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 20px;
-  width: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Imagens/Fut2014-removebg-preview.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-image: linear-gradient(#333, #598ac5, #333);
-};
 
-article {
-    padding: 450px;
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
+body {
+  font-family: Arial, sans-serif;
+  text-align: left ;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(#fff, #598ac5, #fff);
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+h1, h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.score {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.footer {
+  margin-top: 40px;
+}
+a{
+color: #598ac5;
 }
