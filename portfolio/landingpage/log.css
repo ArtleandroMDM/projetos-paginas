@@ -4,10 +4,20 @@ font-family: Georgia, "Times New Roman", Times, serif;
 font-size: 20px;
 text-align: center;
 padding-top: 450px;
+background-image: linear-gradient(#fff, #598ac5, #fff);
 }
 
 label{
   display: flex;
 justify-content: center;
 align-items: center;
+
+}
+form{
+  padding: 100px;
+ height: 100px;
+ width: 100px;
+ margin-left: 700px;
+    
+   border: 2px solid #0D0D0D;
 }
