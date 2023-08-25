@@ -1,22 +1,14 @@
-*{
+ *{
  margin: 0; 
  padding: 0;
 }
-html{
-  height: 100%;
-}
-
 body{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/Estadio.jpg);
 }
-
+  
 header{
   display: flex;
   justify-content: center;
-  background-color: rgb(0, 90, 0);
   color: white;
 }
 
@@ -31,6 +23,7 @@ header nav{
     flex-direction: column;
     align-items: center;
     gap: 5vh; 
+    border: 3px;
 }
 
 nav ul{
@@ -42,13 +35,8 @@ nav ul{
 nav ul a{
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center
   gap: 20px;
 }
 
-footer{
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+ 
